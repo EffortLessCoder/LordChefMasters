@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    transition: all 1s;
+}
+
+.menu ul > li {
+    transform: translateX(-50px);
+    display: inline-block;
+    margin-right : 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.active {
+    transition: all 1s;
+    transform: translateX(0);
+    border-top: 2px solid rgb(34 197 94);
+}
+.menu button {
+    margin-right: 15px;
+}
+button {
+    transition : all 1s;
+}

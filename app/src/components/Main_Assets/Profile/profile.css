@@ -1,0 +1,19 @@
+.profile {
+  transition: all 1s;
+}
+.tabs div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  width: 100%;
+  transition: all 20ms;
+}
+.tabs div:hover {
+  opacity: 0.5;
+}
+
+.tabs div > span {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
